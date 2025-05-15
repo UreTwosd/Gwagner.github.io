@@ -11,6 +11,7 @@
     "build": "tsc && vite build",
     "pretty": "prettier --write .",
     "preview": "vite preview"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
