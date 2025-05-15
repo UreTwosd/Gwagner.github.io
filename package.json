@@ -7,9 +7,8 @@
   "type": "module",
   "license": "GNU v2",
   "scripts": {
-    "dev": "vite --host",
-    "build": "tsc && vite build",
-    "pretty": "prettier --write .",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview"
     "deploy": "gh-pages -d dist"
   },
